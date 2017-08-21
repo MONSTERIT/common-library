@@ -2,6 +2,7 @@ package net.wepla.library_common;
 
 import android.content.Context;
 import android.graphics.Color;
+import android.widget.TextView;
 
 import com.balysv.materialripple.MaterialRippleLayout;
 
@@ -9,7 +10,7 @@ import com.balysv.materialripple.MaterialRippleLayout;
  * Created by bek on 21/08/2017.
  */
 
-public class CustomTexview extends android.support.v7.widget.AppCompatTextView {
+public class CustomTexview extends TextView {
 
     public CustomTexview(Context context) {
         super(context);
